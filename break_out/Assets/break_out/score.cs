@@ -18,7 +18,7 @@ public class score : MonoBehaviour {
 	void Update () {
 		tm.text = ten.ToString();
 
-		if (ten > 400) {
+		if (ten == 400) {
 		//	SceneManager.LoadScene ("Main");
 			tm.text = "!!congratulations!!";
 			tm.color = Color.red;
